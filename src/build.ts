@@ -44,7 +44,6 @@ function buildUserScript(dir: Dirent): void {
 
 function buildExtension(dir: Dirent): void {
   const srcfile = path.join(dir.path, dir.name, 'extension.ts');
-  const infofile = path.join(dir.path, dir.name, 'info.ts');
   const outfile = path.join('dist', dir.name, 'extension.js');
   console.log('- ' + outfile);
 
