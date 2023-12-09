@@ -1,5 +1,5 @@
 const title = 'Style Fixes for AtCoder';
-const version = '2023.11.0';
+const version = '2023.12.0';
 const url =
   'https://github.com/roumcha/browser-extensions/tree/main/src/style-fixes-for-atcoder';
 const author = 'Roumcha';
@@ -9,10 +9,11 @@ export const userScriptHeader = `\
 // @name         ${title}
 // @namespace    ${url}
 // @version      ${version}
-// @description  Forced attempt to fix AtCoder web pages corruption at 967.x px width.
+// @description  Forced attempt to fix style issues on the AtCoder web pages.
 // @author       ${author}
 // @license      Creative Commons Zero v1.0 Universal
 // @match        https://atcoder.jp/*
+// @match        https://*.atcoder.jp/*
 // @grant        GM.xmlHttpRequest
 // @connect      img.atcoder.jp
 // @run-at       document-start
