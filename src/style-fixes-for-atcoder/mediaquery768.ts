@@ -1,13 +1,13 @@
 export function fix(fetchFunc: (url: string) => Promise<string>) {
   mitigateLayoutShift();
 
-  window.onload = () => {
+  window.addEventListener('load', () => {
     overwriteStyleElements();
     overrideLinkElements(fetchFunc);
-  };
+  });
 }
 
-/** レイアウトシフトを軽減する */
+/** とりあえずでかいアイコンを縮めてレイアウトシフトを軽減する */
 function mitigateLayoutShift(): void {
   const styleElement = document.createElement('style');
 

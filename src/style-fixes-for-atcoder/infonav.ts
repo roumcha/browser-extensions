@@ -1,5 +1,5 @@
 export function fix() {
-  window.onload = () => {
+  document.addEventListener('DOMContentLoaded', () => {
     // スマホは修正不要
     if (navigator.userAgent.toLowerCase().includes('mobile')) return;
 
@@ -13,5 +13,5 @@ export function fix() {
 
     // メニューを表示
     menuDiv.className = 'flex gap-x-12';
-  };
+  });
 }
