@@ -6,14 +6,16 @@ const author = 'someone';
 
 export const userScriptHeader = `\
 // ==UserScript==
-// @name         ${title}
-// @namespace    ${url}
-// @version      ${version}
-// @description  Sample User Script
-// @author       ${author}
-// @license      Creative Commons Zero v1.0 Universal
-// @match        https://example.com
-// @run-at       document-start
+// @name             ${title}
+// @name:ja          ${title}
+// @namespace        ${url}
+// @version          ${version}
+// @description      Sample User Script
+// @description:ja   ユーザースクリプトのサンプル
+// @author           ${author}
+// @license          Creative Commons Zero v1.0 Universal
+// @match            https://example.com
+// @run-at           document-start
 // ==/UserScript==
 `;
 

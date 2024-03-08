@@ -6,17 +6,19 @@ const author = 'Roumcha';
 
 export const userScriptHeader = `\
 // ==UserScript==
-// @name         ${title}
-// @namespace    ${url}
-// @version      ${version}
-// @description  Forced attempt to fix style issues on the AtCoder web pages.
-// @author       ${author}
-// @license      Creative Commons Zero v1.0 Universal
-// @match        https://atcoder.jp/*
-// @match        https://*.atcoder.jp/*
-// @grant        GM.xmlHttpRequest
-// @connect      img.atcoder.jp
-// @run-at       document-start
+// @name             ${title}
+// @name:ja          ${title}
+// @namespace        ${url}
+// @version          ${version}
+// @description      Forced attempt to fix style issues on the AtCoder web pages.
+// @description:ja   AtCoderのウェブサイトの表示崩れを無理やり抑え込む
+// @author           ${author}
+// @license          Creative Commons Zero v1.0 Universal
+// @match            https://atcoder.jp/*
+// @match            https://*.atcoder.jp/*
+// @grant            GM.xmlHttpRequest
+// @connect          img.atcoder.jp
+// @run-at           document-start
 // ==/UserScript==
 `;
 
