@@ -24,7 +24,7 @@ This tool addresses the following issues that occur when viewing the AtCoder web
 
 It re-downloads the CSS files used on the page and applies it to widths ranging from 767 to 768 px.
 
-Note: External communication occurs to download CSS.
+Note: External communication occurs to download CSS files.
 
 ### When viewing [AtCoderInfo](https://info.atcoder.jp/) with a narrow window width, the top menu does not open
 
