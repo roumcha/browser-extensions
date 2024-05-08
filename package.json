@@ -6,9 +6,9 @@
     "format": "prettier -w ./"
   },
   "devDependencies": {
-    "@types/node": "^20.12.7",
+    "@types/node": "^20.12.10",
     "@types/tampermonkey": "^5.0.2",
-    "esbuild": "^0.20.2",
+    "esbuild": "^0.21.1",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
