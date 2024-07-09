@@ -6,11 +6,11 @@
     "format": "prettier -w ./"
   },
   "devDependencies": {
-    "@types/node": "^20.12.10",
-    "@types/tampermonkey": "^5.0.2",
-    "esbuild": "^0.21.1",
-    "prettier": "^3.2.5",
+    "@types/node": "^20.14.10",
+    "@types/tampermonkey": "^5.0.3",
+    "esbuild": "^0.23.0",
+    "prettier": "^3.3.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.3"
   }
 }
