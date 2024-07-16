@@ -171,6 +171,7 @@ function createDropdownAndButton(
     dropdown.style.position = 'absolute';
     dropdown.style.width = '200px';
     dropdown.style.padding = '8px';
+    dropdown.style.zIndex = '998';
     dropdown.append(...content);
     res.append(dropdown);
   }

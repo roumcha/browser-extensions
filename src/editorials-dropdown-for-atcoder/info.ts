@@ -1,6 +1,6 @@
 export const title = 'Editorials Dropdown for AtCoder';
 
-export const version = '1.0.1';
+export const version = '1.1.0';
 
 export const url =
   'https://github.com/roumcha/browser-extensions/tree/main/src/editorials-dropdown-for-atcoder';
