@@ -1,6 +1,6 @@
 export const title = 'Editorials Dropdown for AtCoder';
 
-export const version = '1.0.0';
+export const version = '1.0.1';
 
 export const url =
   'https://github.com/roumcha/browser-extensions/tree/main/src/editorials-dropdown-for-atcoder';
@@ -13,7 +13,7 @@ export const userScriptHeader = `\
 // @name:ja          ${title}
 // @namespace        ${url}
 // @version          ${version}
-// @description      Add a drop-down list next to the editorial button on AtCoder problem pages.
+// @description      Add a drop-down list next to the editorial buttons on AtCoder problem pages.
 // @description:ja   AtCoder の解説ボタンの横にドロップダウンリストを追加します。
 // @author           ${author}
 // @license          Creative Commons Zero v1.0 Universal
