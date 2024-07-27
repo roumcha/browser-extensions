@@ -1,5 +1,5 @@
 const title = 'Style Fixes for AtCoder';
-const version = '2023.12.1';
+const version = '2024.7.27';
 const url =
   'https://github.com/roumcha/browser-extensions/tree/main/src/style-fixes-for-atcoder';
 const author = 'Roumcha';
